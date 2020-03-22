@@ -1,0 +1,268 @@
+<!-- Version : 1.0
+Last edited by: Eunsil Lim
+Last edit date: 19 - Nov - 2019 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>upload file</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body>
+    <div id="upload">
+        <!-- title -->
+        <div class="titlebgupload">
+                    <div class="comment">      
+                      <h1>UPLOAD YOUR <span class="logotext">3D model</span></h1>
+                      <h4>Upload your model here. For a demonstration on how to upload <a class="upload" onclick="MM_openBrWindow('help.html','sitemap','width=1000,height=500')">click here</a></h4>
+                    </div> 
+            </div>
+    <!-- section 1 file upload -->
+        <div class="upload_file">
+            <h2>1. Upload your model</h2>
+            <p>File Upload / You may change the file's name.</p>
+            <form>
+            <div class="form-group">
+              <label for="exampleFormControlFile1"><strong>Yourname_date up upolading</strong> : Laila_Morgan_07_08_2019 </label><br>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              <p><small>DAE, OBJ, STL, X3D, X3DB, X3DV, WRL
+                <br>For colour 3D: DAE, WRL, X3D, X3DB, X3DV
+                <br>Name of model *</small></p>
+            </div>
+    <!-- section 2 materials-->
+        <h2>2. Choose your material</h2>
+        <table class="material_tal">
+                <tr>
+                  <th>Material</th>
+                  <th>Colour/Finish</th>
+                  <th>Price per cm³</th>
+                  <th>Qty</th>
+                  <th>Add to cart</th>
+                </tr>
+                <!-- 1st row gold -->
+                <tr>
+                  <td>
+                        Gold
+                  </td>
+                  <td>
+                        <select class="custom-select">
+                        <option selected>Select finish</option>
+                        <option value="1">Polished</option>
+                        <option value="2">Unpolished</option>            
+                        </select>
+                  </td>
+                  <td>
+                        <b>Polished</b>
+                        <br>
+                        $600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+                        <br>
+                        <b>Unpolished</b>
+                        <br>
+                        $450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+
+                  </td>
+                  <td><select class="custom-select">
+                        <option selected>Qty</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-sm">Add to cart</button>
+                    </td>
+                </tr>
+                <!-- 2nd row silver -->
+                <tr>
+                        <td>
+                            Silver
+                        </td>
+                        <td>
+                            <select class="custom-select">
+                            <option selected>Select finish</option>
+                            <option value="1">Polished</option>
+                            <option value="2">Unpolished</option>            
+                            </select>
+                        </td>
+                        <td>
+                            <b>Polished</b>
+                            <br>
+                            $600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+                            <br>
+                            <b>Unpolished</b>
+                            <br>
+                            $450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+
+                        </td>
+                        <td><select class="custom-select">
+                            <option selected>Qty</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-sm">Add to cart</button>
+                        </td>
+                    </tr>
+                    <!-- 3rd row copper -->
+                    <tr>
+                            <td>
+                                Copper
+                            </td>
+                            <td>
+                                <select class="custom-select">
+                                <option selected>Select finish</option>
+                                <option value="1">Polished</option>
+                                <option value="2">Unpolished</option>            
+                                </select>
+                            </td>
+                            <td>
+                                <b>Polished</b>
+                                <br>
+                                $600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+                                <br>
+                                <b>Unpolished</b>
+                                <br>
+                                $450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+        
+                            </td>
+                            <td><select class="custom-select">
+                                <option selected>Qty</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                </select>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-sm">Add to cart</button>
+                            </td>
+                        </tr>
+                        <!-- 4th row Sphere Gold -->
+                        <tr>
+                                <td>
+                                    Sphere Gold
+                                </td>
+                                <td>
+                                    <select class="custom-select">
+                                    <option selected>Select finish</option>
+                                    <option value="1">Polished</option>
+                                    <option value="2">Unpolished</option>            
+                                    </select>
+                                </td>
+                                <td>
+                                    <b>Polished</b>
+                                    <br>
+                                    $600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+                                    <br>
+                                    <b>Unpolished</b>
+                                    <br>
+                                    $450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+            
+                                </td>
+                                <td><select class="custom-select">
+                                    <option selected>Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-sm">Add to cart</button>
+                                </td>
+                            </tr>
+                            <!-- 5th row Plastic -->
+                        <tr>
+                                <td>
+                                    Plastic Red
+                                </td>
+                                <td>
+                                    <select class="custom-select">
+                                    <option selected>colour</option>
+                                    <option value="1">Plastic Red<br>Polished</option>
+                                    <option value="2">Plastic Red<br>Unpolished</option>
+                                
+                                    <option value="3">Plastic Yellow<br>Polished</option>
+                                    <option value="4">Plastic Yellow<br>Unpolished</option>
+                                
+                                    <option value="5">Plastic Blue<br>Polished</option>
+                                    <option value="6">Plastic Blue<br>Unpolished</option>  
+                                
+                                    <option value="7">Plastic Purple<br>Polished</option>
+                                    <option value="8">Plastic Purple<br>Unpolished</option>   
+                                    </select>
+                                </td>
+                                <td>
+                                    <b>Polished</b>
+                                    <br>
+                                    $600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+                                    <br>
+                                    <b>Unpolished</b>
+                                    <br>
+                                    $450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+            
+                                </td>
+                                <td><select class="custom-select">
+                                    <option selected>Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-sm">Add to cart</button>
+                                </td>
+                            </tr>
+                    </table>
+    <!-- section 3 information-->
+        
+        </div>
+        <!-- upload end -->
+    </div>
+
+<!--  open small window MM_openBrWindow -->
+<script>
+        function MM_openBrWindow(theURL,winName,features) { //v2.0
+          window.open(theURL,winName,features);
+        }  </script>
+</body>
+</html>
